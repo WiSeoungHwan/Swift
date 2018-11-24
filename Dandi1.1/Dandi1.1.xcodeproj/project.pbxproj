@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1699D3C18BDF7840FF8FB1D0 /* Pods_Dandi1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9BF327606B0A926A86B9CF /* Pods_Dandi1_1.framework */; };
+		3CA7375A21A929C1004E8742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7375921A929C1004E8742 /* AppDelegate.swift */; };
+		3CA7375C21A929C1004E8742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7375B21A929C1004E8742 /* MainViewController.swift */; };
+		3CA7375F21A929C1004E8742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7375D21A929C1004E8742 /* Main.storyboard */; };
+		3CA7376121A929C2004E8742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7376021A929C2004E8742 /* Assets.xcassets */; };
+		3CA7376421A929C2004E8742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7376221A929C2004E8742 /* LaunchScreen.storyboard */; };
+		3CA7376E21A9301D004E8742 /* WeatherInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7376D21A9301D004E8742 /* WeatherInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D9BF327606B0A926A86B9CF /* Pods_Dandi1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dandi1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7375621A929C1004E8742 /* Dandi1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dandi1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7375921A929C1004E8742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CA7375B21A929C1004E8742 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3CA7375E21A929C1004E8742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CA7376021A929C2004E8742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CA7376321A929C2004E8742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CA7376521A929C2004E8742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA7376D21A9301D004E8742 /* WeatherInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoView.swift; sourceTree = "<group>"; };
+		4EEF8F801873EE7A050DCC96 /* Pods-Dandi1.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dandi1.1.release.xcconfig"; path = "Target Support Files/Pods-Dandi1.1/Pods-Dandi1.1.release.xcconfig"; sourceTree = "<group>"; };
+		CC0956D805E753B7619AC332 /* Pods-Dandi1.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dandi1.1.debug.xcconfig"; path = "Target Support Files/Pods-Dandi1.1/Pods-Dandi1.1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA7375321A929C1004E8742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1699D3C18BDF7840FF8FB1D0 /* Pods_Dandi1_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1103E181543944F2CB41486D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC0956D805E753B7619AC332 /* Pods-Dandi1.1.debug.xcconfig */,
+				4EEF8F801873EE7A050DCC96 /* Pods-Dandi1.1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		27C0B3EEFF0AEE6902B525FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF327606B0A926A86B9CF /* Pods_Dandi1_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CA7374D21A929C1004E8742 = {
+			isa = PBXGroup;
+			children = (
+				3CA7375821A929C1004E8742 /* Dandi1.1 */,
+				3CA7375721A929C1004E8742 /* Products */,
+				1103E181543944F2CB41486D /* Pods */,
+				27C0B3EEFF0AEE6902B525FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA7375721A929C1004E8742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7375621A929C1004E8742 /* Dandi1.1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA7375821A929C1004E8742 /* Dandi1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7376C21A92FD8004E8742 /* View */,
+				3CA7376B21A92FB9004E8742 /* ViewController */,
+				3CA7375921A929C1004E8742 /* AppDelegate.swift */,
+				3CA7375D21A929C1004E8742 /* Main.storyboard */,
+				3CA7376021A929C2004E8742 /* Assets.xcassets */,
+				3CA7376221A929C2004E8742 /* LaunchScreen.storyboard */,
+				3CA7376521A929C2004E8742 /* Info.plist */,
+			);
+			path = Dandi1.1;
+			sourceTree = "<group>";
+		};
+		3CA7376B21A92FB9004E8742 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7375B21A929C1004E8742 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3CA7376C21A92FD8004E8742 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7376D21A9301D004E8742 /* WeatherInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA7375521A929C1004E8742 /* Dandi1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA7376821A929C2004E8742 /* Build configuration list for PBXNativeTarget "Dandi1.1" */;
+			buildPhases = (
+				5CF1BA02FB4A17D17108D83A /* [CP] Check Pods Manifest.lock */,
+				3CA7375221A929C1004E8742 /* Sources */,
+				3CA7375321A929C1004E8742 /* Frameworks */,
+				3CA7375421A929C1004E8742 /* Resources */,
+				D63CC10D0E012D489E08B16D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dandi1.1;
+			productName = Dandi1.1;
+			productReference = 3CA7375621A929C1004E8742 /* Dandi1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA7374E21A929C1004E8742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Wi;
+				TargetAttributes = {
+					3CA7375521A929C1004E8742 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CA7375121A929C1004E8742 /* Build configuration list for PBXProject "Dandi1.1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CA7374D21A929C1004E8742;
+			productRefGroup = 3CA7375721A929C1004E8742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA7375521A929C1004E8742 /* Dandi1.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA7375421A929C1004E8742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA7376421A929C2004E8742 /* LaunchScreen.storyboard in Resources */,
+				3CA7376121A929C2004E8742 /* Assets.xcassets in Resources */,
+				3CA7375F21A929C1004E8742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CF1BA02FB4A17D17108D83A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dandi1.1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63CC10D0E012D489E08B16D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dandi1.1/Pods-Dandi1.1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dandi1.1/Pods-Dandi1.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA7375221A929C1004E8742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA7375C21A929C1004E8742 /* MainViewController.swift in Sources */,
+				3CA7375A21A929C1004E8742 /* AppDelegate.swift in Sources */,
+				3CA7376E21A9301D004E8742 /* WeatherInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CA7375D21A929C1004E8742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA7375E21A929C1004E8742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CA7376221A929C2004E8742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA7376321A929C2004E8742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CA7376621A929C2004E8742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CA7376721A929C2004E8742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA7376921A929C2004E8742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0956D805E753B7619AC332 /* Pods-Dandi1.1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = Dandi1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.Wi.Example.Dandi1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CA7376A21A929C2004E8742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEF8F801873EE7A050DCC96 /* Pods-Dandi1.1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = Dandi1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.Wi.Example.Dandi1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA7375121A929C1004E8742 /* Build configuration list for PBXProject "Dandi1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA7376621A929C2004E8742 /* Debug */,
+				3CA7376721A929C2004E8742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA7376821A929C2004E8742 /* Build configuration list for PBXNativeTarget "Dandi1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA7376921A929C2004E8742 /* Debug */,
+				3CA7376A21A929C2004E8742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA7374E21A929C1004E8742 /* Project object */;
+}
